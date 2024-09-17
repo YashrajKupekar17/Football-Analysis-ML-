@@ -1,7 +1,11 @@
 # Football Analysis Project
 
 ## Introduction
-The goal of this project is to detect and track players, referees, and footballs in a video using YOLO, one of the best AI object detection models available. We will also train the model to improve its performance. Additionally, we will assign players to teams based on the colors of their t-shirts using Kmeans for pixel segmentation and clustering. With this information, we can measure a team's ball acquisition percentage in a match. We will also use optical flow to measure camera movement between frames, enabling us to accurately measure a player's movement. Furthermore, we will implement perspective transformation to represent the scene's depth and perspective, allowing us to measure a player's movement in meters rather than pixels. Finally, we will calculate a player's speed and the distance covered. This project covers various concepts and addresses real-world problems, making it suitable for both beginners and experienced machine learning engineers.
+The aim of this project is to detect and track players, referees, and footballs in video footage using YOLO, a state-of-the-art object detection model. To improve detection accuracy, we will fine-tune the model through additional training. We will also use K-means clustering for pixel segmentation to group players based on the color of their t-shirts, which will help in determining each team's ball possession percentage during the match.
+
+Optical flow will be employed to measure camera movement across frames, enhancing the precision of player movement tracking. By applying perspective transformation, we can convert the scene’s depth and scale player movement from pixels to meters. Using this information, we will calculate the distance traveled and the speed of each player.
+
+This project addresses real-world challenges in sports analytics, combining advanced computer vision and machine learning techniques, making it ideal for both beginners and experienced practitioners.
 
 ![Screenshot](output_videos/screenshot.png)
 
